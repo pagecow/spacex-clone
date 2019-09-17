@@ -2,17 +2,43 @@ body {
     height: 200vh;
     width: 100%;
     margin: 0px;
-    display: flex;
     background-color: white;
 }
 
 header {
-    height: 10vh;
+    height: 76px;
     width: 100%;
     background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.logo {
+div {
     display: flex;
-    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+.middle-menu {
+    color: white;
+    margin-left: 10px;
+    margin-top: 11px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-menu {
+    color: rgb(158, 162, 170);
+    margin-left: 10px;
+    margin-top: 11px;
+    margin-right: 30px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
